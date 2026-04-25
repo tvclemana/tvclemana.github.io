@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;700&display=swap"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="grain">
+    <div class="starfield starfield-far" aria-hidden="true"></div>
+    <div class="starfield starfield-near" aria-hidden="true"></div>
+    <div class="blob blob-one" aria-hidden="true"></div>
+    <div class="blob blob-two" aria-hidden="true"></div>
+    <div class="blob blob-three" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <p class="brand" id="brandName">YOUR FULL NAME</p>
+        <nav class="main-nav" aria-label="Portfolio sections">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#assessment" class="nav-link">Assessment</a>
+          <a href="#passion" class="nav-link">Passion Plan</a>
+          <a href="#community" class="nav-link">Community</a>
+          <a href="#activities" class="nav-link">Activities</a>
+          <a href="#journey" class="nav-link">Journey</a>
+          <a href="#conversion" class="nav-link">Conversion Story</a>
+          <a href="#learning" class="nav-link">Learning</a>
+          <a href="#growth" class="nav-link">Growth</a>
+          <a href="#reflection" class="nav-link">Reflection</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="section-block">
+        <div class="container section-shell">
+          <p class="kicker">SIP DIGITAL PORTFOLIO</p>
+          <div class="hero-layout">
+            <article class="panel hero-copy">
+              <p class="section-kicker">BSIT Senior · AdDU — SIP 2025-2026</p>
+              <h1 class="hero-title serif" id="heroTitle">YOUR FULL NAME</h1>
+              <p class="lead" id="heroSubtitle">
+                A future IT professional committed to building a meaningful career through integrity, faith, and continuous growth.
+              </p>
+              <div id="heroActions" class="action-row"></div>
+            </article>
+
+            <article class="panel portrait-panel">
+              <img id="portraitPhoto" class="memory-photo portrait-photo" data-fallback="portraitPhotoFallback" src="" alt="Portrait photo" />
+              <div id="portraitPhotoFallback" class="img-fallback">Add portrait photo at assets/images/profile.png</div>
+              <div class="memory-copy">
+                <p class="mini-kicker">Quick Intro</p>
+                <p class="memory-text" id="heroMeta">BSIT Student | Ateneo de Davao University | Seniors' Integration Program</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section-block">
+        <div class="container section-shell">
+          <p class="kicker">01 - ABOUT ME</p>
+          <h2 class="section-title serif" id="aboutTitle">Getting to Know Me</h2>
+          <div id="aboutParagraphs" class="story-stack"></div>
+
+          <div id="aboutHighlights" class="roadmap-grid"></div>
+
+          <p class="section-kicker">Core Skills and Strengths</p>
+          <div id="aboutSkills" class="reflect-grid"></div>
+        </div>
+      </section>
+
+      <section id="assessment" class="section-block">
+        <div class="container section-shell">
+          <p class="kicker">02 - SIP ACTIVITY</p>
+          <h2 class="section-title serif" id="assessmentTitle">Character Assessment Tool</h2>
+          <p class="lead" id="assessmentIntro"></p>
+          <div id="assessmentItems" class="question-set-stack"></div>
+        </div>
+      </section>
+
+      <section id="passion" class="section-block">
+        <div class="container section-shell">
+          <p class="kicker">03 - SIP ACTIVITY</p>
+          <h2 class="section-title serif" id="passionTitle">My Passion Plan</h2>
+
+          <article class="plan-panel">
+            <p class="mini-kicker">Personal Mission Statement</p>
+            <p class="answer" id="passionMission"></p>
+          </article>
+
+          <article class="plan-panel">
+            <p class="mini-kicker">Core Values</p>
+            <p class="answer" id="passionValues"></p>
+          </article>
+
+          <article class="plan-panel">
+            <p class="mini-kicker">Community Impact</p>
+            <p class="answer" id="passionImpact"></p>
+          </article>
+
+          <p class="section-kicker">10-20 Year Passion Plan</p>
+          <div id="passionRoadmap" class="roadmap-grid"></div>
+
+          <article class="plan-quote">
+            <p class="mini-kicker">Prayer for My Future Self</p>
+            <p class="answer" id="passionPrayer"></p>
+          </article>
+
+          <p class="section-kicker">Additional Links</p>
+          <div id="passionLinks" class="action-row"></div>
+        </div>
+      </section>
+
+      <section id="community" class="section-block">
+        <div class="container section-shell">
+          <p class="kicker">04 - SIP COMMUNITY</p>
+          <h2 class="section-title serif" id="communityTitle">My Class and Adviser</h2>
+          <article class="panel">
+            <img id="classPhoto" class="memory-photo class-photo" data-fallback="classPhotoFallback" src="" alt="Class photo" />
+            <div id="classPhotoFallback" class="img-fallback">Add class photo at assets/images/class.jfif</div>
+            <div class="memory-copy">
+              <p class="memory-text" id="communityCaption"></p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="activities" class="section-block">
+        <div class="container section-shell">
+          <p class="kicker">05 - SIP ACTIVITIES</p>
+          <h2 class="section-title serif" id="activitiesTitle">Classroom Activities and Reflections</h2>
+          <p class="lead" id="activitiesIntro"></p>
+          <div id="activitiesList" class="question-set-stack"></div>
+        </div>
+      </section>
+
+      <section id="journey" class="section-block">
+        <div class="container section-shell">
+          <p class="kicker">06 - ADDU JOURNEY</p>
+          <h2 class="section-title serif" id="journeyTitle">My Journey Map</h2>
+          <p class="lead" id="journeyIntro"></p>
+          <article class="journey-map panel">
+            <img id="journeyMap" class="journey-map-img" data-fallback="journeyMapFallback" src="" alt="Journey map" />
+            <div id="journeyMapFallback" class="img-fallback">Add journey map image at assets/images/journey-map.png</div>
+            <p class="map-caption" id="fullIdentity">YOUR FULL NAME | IT 4-A | ATENEO DE DAVAO UNIVERSITY</p>
+          </article>
+
+          <div id="journeyMilestones" class="story-stack"></div>
+        </div>
+      </section>
+
+      <section id="conversion" class="section-block">
+        <div class="container section-shell">
+          <p class="kicker">07 - SIP CONVERSION STORY</p>
+          <h2 class="section-title serif" id="conversionTitle">My Conversion Story</h2>
+          <p class="lead" id="conversionIntro"></p>
+
+          <article class="pdf-shell">
+            <p class="pdf-head">Conversion Story PDF</p>
+            <iframe id="conversionPdf" class="pdf-viewer" title="My Conversion Story PDF" loading="lazy"></iframe>
+          </article>
+        </div>
+      </section>
+
+      <section id="learning" class="section-block">
+        <div class="container section-shell">
+          <p class="kicker">08 - SIP LEARNING</p>
+          <h2 class="section-title serif" id="learningTitle">Three Big Ideas on Reflective Leadership</h2>
+          <div id="learningIdeas" class="reflect-grid"></div>
+        </div>
+      </section>
+
+      <section id="growth" class="section-block">
+        <div class="container section-shell">
+          <p class="kicker">09 - PERSONAL GROWTH</p>
+          <h2 class="section-title serif" id="growthTitle">How Can I Grow More on Humility and Inner Freedom?</h2>
+          <article class="plan-quote">
+            <p class="mini-kicker" id="growthQuestion"></p>
+            <p class="answer" id="growthAnswer"></p>
+          </article>
+        </div>
+      </section>
+
+      <section id="reflection" class="section-block">
+        <div class="container section-shell">
+          <p class="kicker">10 - PERSONAL REFLECTION</p>
+          <h2 class="section-title serif" id="reflectionTitle">A Word to My Future Self</h2>
+          <article class="plan-quote">
+            <p class="answer" id="futureReflection"></p>
+            <p class="map-caption" id="reflectionSignature"></p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p class="foot-text" id="footerCopy">Copyright 2026 YOUR FULL NAME</p>
+        <p class="foot-text" id="footerTag">ADDU | IT 4-A | SENIORS' INTEGRATION PROGRAM</p>
+      </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
